@@ -85,7 +85,7 @@ plframe_error_t plframe_cursor_thread_init (plframe_cursor_t *cursor, thread_t t
     }
     
     /* Perform standard initialization */
-    plframe_cursor_init(cursor, uap, image);
+    plframe_cursor_init(cursor, uap, image_list);
     
     return PLFRAME_ESUCCESS;
 }
